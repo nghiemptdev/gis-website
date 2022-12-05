@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/gis/static/css/main.a3992737.css",
+    "main.js": "/gis/static/js/main.29990933.js",
+    "static/js/787.9cc1d5f3.chunk.js": "/gis/static/js/787.9cc1d5f3.chunk.js",
+    "static/media/bg-map.jpg": "/gis/static/media/bg-map.32069551be0f72914206.jpg",
+    "static/media/layer.png": "/gis/static/media/layer.dfc271cd6a7e6b97e38b.png",
+    "static/media/bg-works.jpg": "/gis/static/media/bg-works.3338945fbad662fdc075.jpg",
+    "index.html": "/gis/index.html",
+    "main.a3992737.css.map": "/gis/static/css/main.a3992737.css.map",
+    "main.29990933.js.map": "/gis/static/js/main.29990933.js.map",
+    "787.9cc1d5f3.chunk.js.map": "/gis/static/js/787.9cc1d5f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3992737.css",
+    "static/js/main.29990933.js"
+  ]
+}
