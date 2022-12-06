@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gis/static/css/main.9ddc1391.css",
-    "main.js": "/gis/static/js/main.8662d634.js",
-    "static/js/787.9cc1d5f3.chunk.js": "/gis/static/js/787.9cc1d5f3.chunk.js",
-    "static/media/fea-06.jpg": "/gis/static/media/fea-06.32b93cafa3989487d3d5.jpg",
-    "static/media/fea-02.jpg": "/gis/static/media/fea-02.2d03654373a7e51d828d.jpg",
-    "static/media/fea-01.jpg": "/gis/static/media/fea-01.eee106e655ab66567e0a.jpg",
-    "static/media/fea-04.jpg": "/gis/static/media/fea-04.79e7b43a88705756f8b4.jpg",
-    "static/media/fea-03.jpg": "/gis/static/media/fea-03.8fd04c268562dfae11a5.jpg",
-    "static/media/fea-05.jpg": "/gis/static/media/fea-05.044c9405eb66a576e376.jpg",
-    "static/media/bg-map.jpg": "/gis/static/media/bg-map.32069551be0f72914206.jpg",
-    "static/media/bg-banner.jpg": "/gis/static/media/bg-banner.e1d4b63603f4e6cea44c.jpg",
-    "index.html": "/gis/index.html",
-    "main.9ddc1391.css.map": "/gis/static/css/main.9ddc1391.css.map",
-    "main.8662d634.js.map": "/gis/static/js/main.8662d634.js.map",
-    "787.9cc1d5f3.chunk.js.map": "/gis/static/js/787.9cc1d5f3.chunk.js.map"
+    "main.css": "/gis-website/static/css/main.219bebdd.css",
+    "main.js": "/gis-website/static/js/main.f71880af.js",
+    "static/js/787.9cc1d5f3.chunk.js": "/gis-website/static/js/787.9cc1d5f3.chunk.js",
+    "static/media/fea-06.jpg": "/gis-website/static/media/fea-06.32b93cafa3989487d3d5.jpg",
+    "static/media/fea-02.jpg": "/gis-website/static/media/fea-02.2d03654373a7e51d828d.jpg",
+    "static/media/fea-01.jpg": "/gis-website/static/media/fea-01.eee106e655ab66567e0a.jpg",
+    "static/media/fea-04.jpg": "/gis-website/static/media/fea-04.79e7b43a88705756f8b4.jpg",
+    "static/media/fea-03.jpg": "/gis-website/static/media/fea-03.8fd04c268562dfae11a5.jpg",
+    "static/media/fea-05.jpg": "/gis-website/static/media/fea-05.044c9405eb66a576e376.jpg",
+    "static/media/bg-map.jpg": "/gis-website/static/media/bg-map.32069551be0f72914206.jpg",
+    "static/media/bg-banner.jpg": "/gis-website/static/media/bg-banner.e1d4b63603f4e6cea44c.jpg",
+    "index.html": "/gis-website/index.html",
+    "main.219bebdd.css.map": "/gis-website/static/css/main.219bebdd.css.map",
+    "main.f71880af.js.map": "/gis-website/static/js/main.f71880af.js.map",
+    "787.9cc1d5f3.chunk.js.map": "/gis-website/static/js/787.9cc1d5f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ddc1391.css",
-    "static/js/main.8662d634.js"
+    "static/css/main.219bebdd.css",
+    "static/js/main.f71880af.js"
   ]
 }
