@@ -19,4 +19,4 @@ npm start
 ## You can use access website with
 
 - https://localhost:3000/gis
-- https://nghiemptdev.github.io/gis
+- https://nghiemptdev.github.io/gis-website
