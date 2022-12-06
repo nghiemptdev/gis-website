@@ -8,7 +8,7 @@ function AppFooter() {
       <div className="footer">
         <div className="logo">
         <i class="fa-solid fa-layer-group"></i>
-          <a href="http://google.com" style={{marginLeft: 10}}>GIS</a>
+          <a href="#" style={{marginLeft: 10}}>GIS</a>
         </div>
         <ul className="socials">
           <li><a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a></li>
@@ -17,7 +17,7 @@ function AppFooter() {
           <li><a href="https://www.pinterest.com/"><i className="fab fa-pinterest-p"></i></a></li>
           <li><a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a></li>
         </ul>
-        <div className="copyright">Copyright &copy; 2020 GIS</div>
+        <div className="copyright">Copyright &copy; 2021 GIS</div>
         <BackTop>
           <div className="goTop"><i className="fas fa-arrow-circle-up"></i></div>
         </BackTop>

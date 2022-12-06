@@ -23,17 +23,17 @@ const items = [
 
 function AppHero() {
   return (
-    <div id="hero" className="heroBlock">
+    <div id="banner" className="bannerBlock">
       <Carousel>
         {items.map(item => {
           return (
             <div key={item.key} className="container-fluid">
               <div className="content">
-                <h3>{item.title}</h3>
-                <p>{item.content}</p>
+                <h3 style={{color: 'white'}}>{item.title}</h3>
+                <p style={{textAlign:'justify', color: 'white'}}>{item.content}</p>
                 <div className="btnHolder">
-                  <Button type="primary" size="large">Learn More</Button>
-                  <Button size="large"><i className="fas fa-desktop"></i> Watch a Demo</Button>
+                  <Button type="primary" size="large" >Learn More</Button>
+                  <Button size="large" style={{border: 'none'}}><i className="fas fa-desktop" ></i>Live Demo</Button>
                 </div>
               </div>
             </div>  

@@ -1,33 +1,22 @@
 # GIS Website with ReactJS
 
-Api with add, update, delete students information.
+Website allows users watch information about map and layer.
 
 ## Installation
 
-Use the package manager [npm] to install foobar.
+Use the package manager [npm] to install package.
 
 ```bash
-npm init -y
-```
-
-## Installation package
-
-```bash
-npm install nodemon body-parser express mysql
+npm install
 ```
 
 ## Start server
 
-Note: You need to start mysql first (can use Xampp)
-
 ```bash
-nodemon server.js
+npm start
 ```
 
-## You can use
+## You can use access website with
 
-- GET:       localhost:{your PORT}/students
-- GET by ID: localhost:{your PORT}/students/:id
-- POST:      localhost:{your PORT}/students (send with your req.body)
-- PUT:       localhost:{your PORT}/students/:id
-- DELETE:    localhost:{your PORT}/students/:id
+- https://localhost:3000/gis
+- https://nghiemptdev.github.io/gis

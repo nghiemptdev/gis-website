@@ -7,19 +7,19 @@ const items = [
     key: '1',
     icon: <i class="fa-solid fa-user"></i>,
     title: 'User management',
-    content: 'description',
+    content: 'Login - Profile',
   },
   {
     key: '2',
     icon: <i class="fa-solid fa-layer-group"></i>,
     title: 'Layer',
-    content: 'description',
+    content: 'Many layer in map',
   },
   {
     key: '3',
     icon: <i class="fa-solid fa-pen-fancy"></i>,
     title: 'Utilities',
-    content: 'description',
+    content: 'Interaction with map',
   },
 ]
 
@@ -29,7 +29,7 @@ function AppAbout() {
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>About Us</h2>
-          <p>Map Layer</p>
+          <p>Geographic information system</p>
         </div>
         <div className="contentHolder">
           <p>There are different approaches to GIS definition. From a systems perspective, GIS can be understood as a system consisting of components: human , hardware , software , database and process-expert knowledge? [ citation needed ] , which gathers regulations, norms, standards, orientations, application guidelines of managers, specialized knowledge and information technology knowledge.</p>

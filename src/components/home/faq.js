@@ -10,26 +10,26 @@ function AppFaq() {
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>Frequently Asked Questions</h2>
-          <p>description</p>
+          <p>Geographic information system</p>
         </div>
         <Collapse defaultActiveKey={['1']}>
-          <Panel header="How to setup the theme?" key="1">
-            <p>description</p>
+          <Panel header="How to see the map?" key="1">
+            <p>You have to login and payment for some package to see the map with map'price.</p>
           </Panel>
-          <Panel header="Can I change plan or cancel at any time?" key="2">
-            <p>description</p>
+          <Panel header="Can I change access the map at any time?" key="2">
+            <p>You have to login and payment for some package to see the map with map'price.</p>
           </Panel>
           <Panel header="How to access through cloud?" key="3">
-            <p>description</p>
+            <p>You have to login and payment for some package to see the map with map'price.</p>
           </Panel>
           <Panel header="Can I manage multiple task?" key="4">
-            <p>description</p>
+            <p>You have to login and payment for some package to see the map with map'price.</p>
           </Panel>
           <Panel header="How can I change my password?" key="5">
-            <p>description</p>
+            <p>You have to login and payment for some package to see the map with map'price.</p>
           </Panel>
           <Panel header="How to manage my account?" key="6">
-            <p>description</p>
+            <p>You have to login and payment for some package to see the map with map'price.</p>
           </Panel>
         </Collapse>
         <div className="quickSupport">

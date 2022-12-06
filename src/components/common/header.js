@@ -19,16 +19,16 @@ function AppHeader() {
       <div className="header">
         <div className="logo">
           <i class="fa-solid fa-layer-group"></i>
-          <a href="http://google.com" style={{marginLeft: 10}}>GIS</a>
+          <a href="#" style={{marginLeft: 10, fontWeight: 600, color: 'blue'}}>GIS</a>
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset="65">
-            <Link href="#hero" title="Home" />
+            <Link href="#banner" title="Home" />
             <Link href="#about" title="About" />
             <Link href="#feature" title="Features" />
-            <Link href="#works" title="How it works" />
+            <Link href="#introduce" title="Introduce" />
             <Link href="#faq" title="FAQ" />
-            <Link href="#pricing" title="Pricing" />
+            <Link href="#package" title="Package" />
             <Link href="#contact" title="Contact" />
           </Anchor>
         </div>

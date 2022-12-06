@@ -1,22 +1,22 @@
 import React from 'react';
 
-import AppHero from '../home/hero';
+import AppBanner from '../home/banner';
 import AppAbout from '../home/about';
 import AppFeature from '../home/feature';
-import AppWorks from '../home/works';
+import AppIntroduce from '../home/introduce';
 import AppFaq from '../home/faq';
-import AppPricing from '../home/pricing';
+import AppPackage from '../home/package';
 import AppContact from '../home/contact';
 
 function AppHome() {
   return (
     <div className="main">
-      <AppHero/>
+      <AppBanner/>
       <AppAbout/>
       <AppFeature/>
-      <AppWorks/>
+      <AppIntroduce/>
       <AppFaq/>
-      <AppPricing/>
+      <AppPackage/>
       <AppContact/>
     </div>
   );

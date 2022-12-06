@@ -201,31 +201,31 @@ header
 hero
 ---- 
 */
-.heroBlock {
-  background: url('assets/images/bg-map.jpg') no-repeat;
+.bannerBlock {
+  background: url('assets/images/bg-banner.jpg') no-repeat;
   background-position: 50% 100%;
   background-size: cover;
   height: 100vh;
 }
 
-.heroBlock .container-fluid {
+.bannerBlock .container-fluid {
   display: block !important;
 }
 
-.heroBlock .ant-carousel,
-.heroBlock .ant-carousel div {
+.bannerBlock .ant-carousel,
+.bannerBlock .ant-carousel div {
   height: 100%;
 }
 
-.heroBlock .slick-dots li button {
+.bannerBlock .slick-dots li button {
   background: #000 !important;
 }
 
-.heroBlock .slick-dots li.slick-active button {
-  background: #1890ff !important;
+.bannerBlock .slick-dots li.slick-active button {
+  background: #fff !important;
 }
 
-.heroBlock .content {
+.bannerBlock .content {
   max-width: 640px;
   display: flex;
   flex-direction: column;
@@ -233,22 +233,22 @@ hero
   padding: 0 0 70px;
 }
 
-.heroBlock h3 {
+.bannerBlock h3 {
   font-size: 30px;
   line-height: 1.2;
   margin: 0 0 30px;
 }
 
-.heroBlock p {
+.bannerBlock p {
   margin: 0 0 30px;
 }
 
-.heroBlock .btnHolder {
+.bannerBlock .btnHolder {
   height: auto !important;
 }
 
-.heroBlock .btnHolder button,
-.heroBlock .btnHolder .fas {
+.bannerBlock .btnHolder button,
+.bannerBlock .btnHolder .fas {
   margin: 0 10px 0 0;
 }
 
@@ -284,8 +284,8 @@ about
 how it works
 ------------
 */
-.worksBlock {
-  background: url('assets/images/bg-works.jpg') no-repeat;
+.introduceBlock {
+  background: url('assets/images/bg-map.jpg') no-repeat;
   background-position: 50% 0;
   background-size: cover;
   background-attachment: fixed;
@@ -293,7 +293,7 @@ how it works
   position: relative;
 }
 
-.worksBlock:before {
+.introduceBlock:before {
   content: '';
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -303,15 +303,15 @@ how it works
   right: 0;
 }
 
-.worksBlock h2 {
+.introduceBlock h2 {
   color: #fff;
 }
 
-.worksBlock .contentHolder {
+.introduceBlock .contentHolder {
   text-align: center;
 }
 
-.worksBlock .contentHolder button {
+.introduceBlock .contentHolder button {
   font-size: 40px;
   line-height: 1;
   background: none;
@@ -345,30 +345,29 @@ faqs
 pricing block
 -------------
 */
-.pricingBlock .ant-list {
+.packageBlock .ant-list {
   text-align: center;
 }
 
-.pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
-  box-shadow: 0 0 12px 2px #f3f3f3;
+.packageBlock .ant-row > div:nth-child(2) .ant-list-item {
   transform: scale(1.1);
   position: relative;
   z-index: 1;
 }
 
-.pricingBlock .ant-card-head-title {
+.packageBlock .ant-card-head-title {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 400;
 }
 
-.pricingBlock .large {
+.packageBlock .large {
   font-size: 38px;
   line-height: 1;
   margin: 0 0 20px;
 }
 
-.pricingBlock .fab {
+.packageBlock .fab {
   margin: 0 10px 0 0;
 }
 
@@ -451,13 +450,13 @@ responsive
 ----------
 */
 @media only screen and (max-width: 991px) {
-  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+  .packageBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1.14);
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+  .packageBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1);
   }
 

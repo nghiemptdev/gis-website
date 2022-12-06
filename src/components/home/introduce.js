@@ -20,11 +20,11 @@ class AppWorks extends React.Component {
 
   render() {
     return (
-      <div id="works" className="block worksBlock">
+      <div id="introduce" className="block introduceBlock">
         <div className="container-fluid">
           <div className="titleHolder">
-            <h2>How it works</h2>
-            <p>description</p>
+            <h2>Introduce</h2>
+            <p>Geographic information system</p>
           </div>
           <div className="contentHolder">
             <Button size="large" onClick={this.showModal}><i className="fas fa-play"></i></Button>
@@ -36,7 +36,7 @@ class AppWorks extends React.Component {
             footer={null}
             destroyOnClose = {true}
           >
-            <iframe title="Woocommerce Tutorial" width="100%" height="350" src="https://www.youtube.com/embed/8f8_JYIzOno?list=PLiUrl-SQRR7LQINGQGE99pXWDuKq4SxfU"></iframe>
+            <iframe title="Woocommerce Tutorial" width="100%" height="350" src="https://www.youtube.com/watch?v=vJAQHA5XQWI&list=PL3MO67NH2XxLAFn3jc7gOhXLD9YFx-oew&ab_channel=IntroductiontoGeographicInformationSystems"></iframe>
           </Modal>
         </div>
       </div>

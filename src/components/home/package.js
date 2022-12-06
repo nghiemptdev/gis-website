@@ -8,11 +8,11 @@ const data = [
     content: [
       {
         price: '$29.99',
-        space: '1 GB of space',
+        space: '1000 giscoins',
         user: '1 user',
         support: '24/7 support',
         backup: 'Safe',
-        access: 'Access from anywhere'
+        access: 'Access from device'
       }
     ]
   },
@@ -21,11 +21,11 @@ const data = [
     content: [
       {
         price: '$59.99',
-        space: '5 GB of space',
+        space: '5000 giscoins',
         user: '5 users',
         support: '24/7 support',
         backup: 'Safe',
-        access: 'Access from anywhere'
+        access: 'Access from device'
       }
     ]
   },
@@ -34,11 +34,11 @@ const data = [
     content: [
       {
         price: '$99.99',
-        space: 'Unlimited space',
+        space: 'Unlimited giscoins',
         user: '15 users',
         support: '24/7 support',
         backup: 'Safe',
-        access: 'Access from anywhere'
+        access: 'Access from device'
       }
     ]
   }
@@ -46,11 +46,11 @@ const data = [
 
 function AppPricing() {
   return (
-    <div id="pricing" className="block pricingBlock bgGray">
+    <div id="package" className="block packageBlock bgGray">
       <div className="container-fluid">
         <div className="titleHolder">
-          <h2>Choose a plan to fit your needs</h2>
-          <p>description</p>
+          <h2>Choose a package to fit your needs</h2>
+          <p>package / month</p>
         </div>
         <List
           grid={{

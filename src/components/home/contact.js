@@ -8,8 +8,8 @@ function AppContact() {
     <div id="contact" className="block contactBlock">
       <div className="container-fluid">
         <div className="titleHolder">
-          <h2>Get in Touch</h2>
-          <p>description</p>
+          <h2>Contact</h2>
+          <p>Your information</p>
         </div>
         <Form
           name="normal_login"
